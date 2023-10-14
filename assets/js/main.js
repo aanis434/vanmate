@@ -97,6 +97,23 @@ $(document).ready(function () {
     },
   });
 
+  // home car slider
+  var swiper = new Swiper(".home-car-slider", {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+    spaceBetween: 30,
+    breakpoints: {
+      993: {
+        slidesPerView: 3,
+      },
+      300: {
+        slidesPerView: 1,
+      },
+    },
+  });
+
   // Initialize slider
   mySwiper.init();
   // country code
