@@ -998,10 +998,79 @@ body {
   transition: all 0.3s ease;
 }
 
-.trusted-by {
+/* quick-links */
+.quick-links {
+  background: #253773;
+  color: #fff;
+  padding: 85px 0;
 }
-.trusted-by {
+.quick-links .section-title {
+  font-weight: 900;
+  font-size: 25px;
+  color: #fff;
 }
+.quick-links .accordion-flush .accordion-item {
+  background-color: transparent;
+}
+.quick-links .accordion-flush .accordion-item .accordion-button,
+.quick-links .accordion-flush .accordion-item .accordion-button.collapsed {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+  text-transform: uppercase;
+}
+.quick-links .accordion-flush ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+.quick-links .accordion-flush ul li {
+  list-style: square;
+  color: #fff;
+}
+.quick-links .accordion-flush ul li a {
+  color: #fff;
+}
+.quick-links .accordion-flush ul li a:hover {
+  text-decoration: underline;
+}
+.accordion-button:not(.collapsed)::after {
+ content: "-";
+ background-image: none;
+ font-size: 20px;
+}
+.accordion-button::after{
+  content: "+";
+  background-image: none;
+  font-size: 20px;
+}
+.quick-links .accordion-flush {
+}
+.quick-links .accordion-flush {
+}
+.quick-links .accordion-flush {
+}
+.quick-links .accordion-flush {
+}
+.quick-links {
+}
+.quick-links {
+}
+.quick-links {
+}
+.quick-links {
+}
+.quick-links {
+}
+.quick-links {
+}
+.quick-links {
+}
+.quick-links {
+}
+/* quick-links */
 
 /* responsive */
 @media screen and (max-width: 1200px) {
