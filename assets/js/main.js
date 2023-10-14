@@ -52,7 +52,7 @@ $(document).ready(function () {
       init: false,
       loop: true,
       speed: 800,
-      slidesPerView: 'auto', // or 'auto'
+      slidesPerView: "auto", // or 'auto'
       // spaceBetween: 10,
       grabCursor: true,
       parallax: true,
@@ -80,6 +80,22 @@ $(document).ready(function () {
       },
     };
   var mySwiper = new Swiper(sliderSelector, options);
+
+  // logoSlider
+  var swiper = new Swiper(".logoSlider", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: false,
+    breakpoints: {
+      993: {
+        slidesPerView: 4,
+      },
+      300: {
+        slidesPerView: 3,
+      },
+    },
+  });
 
   // Initialize slider
   mySwiper.init();
