@@ -137,6 +137,17 @@ $(document).ready(function () {
     },
   });
 
+
+  // product-img slider
+  var swiper = new Swiper(".product-img", {
+    spaceBetween: 16,
+    slidesPerView: 1,
+    grabCursor: true,
+    parallax: true,
+    pagination: false,
+    navigation: false,
+  });
+
   // Initialize slider
   mySwiper.init();
   // country code
