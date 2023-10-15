@@ -342,8 +342,8 @@
   -ms-flex-align: center;
   align-items: center;
 }
-.finance ul li i{
-  color: #2958EB;
+.finance ul li i {
+  color: #2958eb;
   margin-right: 20px;
 }
 .finance a {
@@ -368,7 +368,7 @@
   z-index: 1;
   max-width: 200px;
 }
-.finance a:hover{
+.finance a:hover {
   color: #fff;
 }
 .finance a::after {
@@ -388,7 +388,7 @@
   transition: all linear 0.3s;
   transform: skewX(0deg);
 }
-.finance .img img{
+.finance .img img {
   width: 100%;
   height: 100%;
 }
@@ -401,8 +401,9 @@
 @media screen and (min-width: 992px) {
 }
 @media screen and (max-width: 991px) {
+  /* home-hero */
   .home-hero .hero-flex-item h1 {
-    font-size: 56px;
+    font-size: 40px;
   }
   .home-hero .find-car {
     z-index: 1;
@@ -411,6 +412,13 @@
   .home-hero .adv-link {
     z-index: 1;
     position: relative;
+  }
+  /* dream-car */
+  .dream-car .section-title {
+    font-size: 35px;
+  }
+  .hassle-free .hassle-free-flex h1 {
+    font-size: 35px;
   }
 }
 
@@ -421,7 +429,7 @@
 }
 @media screen and (max-width: 600px) {
   .home-hero .hero-flex-item h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .home-hero .find-car {
     font-size: 22px;
@@ -431,5 +439,17 @@
   }
   .home-hero .adv-link {
     text-align: center !important;
+  }
+  .dream-car .section-title {
+    font-size: 30px;
+  }
+  .hassle-free .hassle-free-flex h1 {
+    font-size: 30px;
+  }
+  .finance .section-title{
+    font-size: 30px;
+  }
+  .finance .img img{
+    margin-top: 20px;
   }
 }
