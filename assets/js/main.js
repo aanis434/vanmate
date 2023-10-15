@@ -108,6 +108,29 @@ $(document).ready(function () {
       993: {
         slidesPerView: 3,
       },
+      600: {
+        slidesPerView: 2,
+      },
+      300: {
+        slidesPerView: 1,
+      },
+    },
+  });
+
+  // home car slider
+  var swiper = new Swiper(".dreamCar", {
+    spaceBetween: 16,
+    grabCursor: true,
+    parallax: true,
+    pagination: false,
+    navigation: false,
+    breakpoints: {
+      993: {
+        slidesPerView: 4,
+      },
+      600: {
+        slidesPerView: 2,
+      },
       300: {
         slidesPerView: 1,
       },
